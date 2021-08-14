@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- button onclick system -->
+    <div>
+        <div class="button-area">
+            <button onclick="clickSakil()">sakil</button>
+            <button onclick="clickKuttu()">Kuttu</button>
+        </div>
+        <div class="button-result">
+
+            <img id="picture" src="#" alt="">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- input and button coclick system -->
+    <div class="input-update">
+        <p class="input-content"></p>
+        <input id="input-text" type="text">
+        <button id="update-button">update</button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- slider system  -->
+    <div class="slider">
+        <button onclick="previous()">Previous</button>
+        <img src="images/sakil.jpg" alt="" width="300">
+        <button onclick="next()">Next</button>
+    </div>
+
+    <!-- css change by js  -->
+
+    <div>
+        <div class="article-area">
+            <h1>Want to a Software Engineer!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim doloremque possimus impedit harum. Unde
+                ullam similique perspiciatis modi amet totam?</p>
+        </div>
+        <button onclick="addStyle()">Add Style</button>
+
+        <button onclick="removeStyle()">Remove Style</button>
+    </div>
+
+    <!--single  event listner  -->
+
+    <div class="add-event">
+        <h1>This is the add even listner</h1>
+    </div>
+
+    <!-- nultiple event listener  -->
+    <div class="multi-event">
+        <h2>This is the Result Text.</h2>
+
+        <button id="my-button">Button 1</button>
+        <button id="my-button">Button 2</button>
+        <button id="my-button">Button 3</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- post comment system -->
+    <div class="comeent-area">
+        <div class="all-comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, magni.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, magni. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Corporis, eaque. </p>
+        </div>
+        <div>
+            <textarea name="" id="comment-box" cols="50" rows="5"></textarea>
+            <br>
+            <button id="post-button">Post</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--delete system -->
+    <section>
+        <div id="delete-area">
+            <h1>You can delete it after confirm the delete word.</h1>
+            <h4 id="delete-text">very very important secret jokes.</h4>
+            <input id="delete-input" type="text" placeholder="type delete">
+            <button id="delete-button" disabled>Delete</button>
+        </div>
+        <div id="success-msg" style="display: none;">
+            <h2>You succesfully delete the jokes.</h2>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--delete system -->
+    <section>
+        <h1>Remove Event</h1>
+        <ul>
+            <li class="iteam">Hello dear.</li>
+            <li class="iteam">How are you ?</li>
+            <li class="iteam">What do you do now?</li>
+            <li class="iteam">I am busy in my jobs</li>
+        </ul>
+        <button id="add-iteam"> Add new event</button>
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+    <script src="onclick.js"></script>
+    <script src="slider.js"></script>
+    <script src="cssChange.js"></script>
+    <script src="eventListener.js"></script>
+    <script src="multiEventLIstener.js"></script>
+    <script src="inputOnClick.js"></script>
+    <script src="post-commnet.js"></script>
+    <script src="delete.js"></script>
+    <script src="removeElements.js"></script>
+</body>
+
+</html>
